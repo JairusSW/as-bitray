@@ -1,0 +1,31 @@
+{
+  "name": "as-bitray",
+  "version": "2.4.9",
+  "description": "Bitray - Small Utility For Handling Binary Data Written In AssemblyScript",
+  "types": "./assembly/index.js",
+  "scripts": {
+    "asbuild:untouched": "npx asc assembly/index.ts --target debug",
+    "asbuild:optimized": "npx asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized",
+    "test": "node tests"
+  },
+  "devDependencies": {
+    "@assemblyscript/loader": "^0.18.27",
+    "assemblyscript": "^0.18.27"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JairusSW/as-bitray"
+  },
+  "keywords": [
+    "AssemblyScript",
+    "WebAssembly",
+    "WASM",
+    "Binary",
+    "Buffer",
+    "Bitray",
+    "Data"
+  ],
+  "author": "JairusSW",
+  "license": "MIT"
+}

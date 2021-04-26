@@ -1,0 +1,7 @@
+{
+  "extends": "../../../../../.pnpm-store/assemblyscript@0.18.14/node_modules/assemblyscript/std/assembly.json",
+  "include": [
+    "./**/*.ts",
+    "bitray/index.ts"
+  ]
+}

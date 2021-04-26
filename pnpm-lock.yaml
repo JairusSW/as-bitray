@@ -1,0 +1,29 @@
+devDependencies:
+  '@assemblyscript/loader': 0.18.23
+  assemblyscript: 0.18.23
+lockfileVersion: 5.2
+packages:
+  /@assemblyscript/loader/0.18.23:
+    dev: true
+    resolution:
+      integrity: sha512-kB3YXStevN3lCDXboqR3trSz5l82qZtg3dklO/vbvZYJECKNQmF/iWOv9F1ds6giJByFiQC5lhhIykC6ty0Wkg==
+  /assemblyscript/0.18.23:
+    dependencies:
+      binaryen: 100.0.0
+      long: 4.0.0
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-INs8ZuV+L9E77UFZB2mK3u+85StkB/H2/kjQV0282IKgzojCH6Rw+NyS1SN5im2rT6/RmMtouWvpmHoet18IjQ==
+  /binaryen/100.0.0:
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-nxOt8d8/VXAuSVEtAWUdKrqpqCy365QqD223EzzB1GzS5himiZAfM/R5lXx+M/5q8TB8cYp3tYxv5rTjNTJveQ==
+  /long/4.0.0:
+    dev: true
+    resolution:
+      integrity: sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
+specifiers:
+  '@assemblyscript/loader': ^0.18.23
+  assemblyscript: ^0.18.23
