@@ -1,8 +1,9 @@
 {
   "name": "as-bitray",
-  "version": "2.4.9",
+  "version": "2.5.0",
   "description": "Bitray - Small Utility For Handling Binary Data Written In AssemblyScript",
-  "types": "./assembly/index.js",
+  "types": "./assembly/index.ts",
+  "ascMain": "./assembly/index.ts",
   "scripts": {
     "asbuild:untouched": "npx asc assembly/index.ts --target debug",
     "asbuild:optimized": "npx asc assembly/index.ts --target release",
